@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ProxyApplication",
+      "request": "launch",
+      "mainClass": "com.liveplotting.proxy.ProxyApplication",
+      "projectName": "proxy"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "SvelteApplication",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["npm", "run", "dev", "--", "--open"],
+      "cwd": "${workspaceFolder}/frontend"
+    }
+  ]
+}

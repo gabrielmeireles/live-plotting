@@ -6,8 +6,9 @@ import com.liveplotting.proxy.sender.MessageSender;
 
 @Component
 public class SineWaveMessageSender extends MessageSender {
-    private double amplitude;
-    private double frequency;
+    private double amplitude = 10.0;
+    private double frequency = 1.0;
+
     private long referenceTimestamp;
 
     public SineWaveMessageSender() {
