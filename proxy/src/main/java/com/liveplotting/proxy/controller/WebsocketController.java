@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class WebsocketController {
     @SubscribeMapping("/topic")
-    public void subscribe(String message) {
-        System.out.println(message);
+    public void subscribe() {
+        System.out.println("Subscribed");
     }
 }

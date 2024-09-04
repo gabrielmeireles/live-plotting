@@ -1,5 +1,6 @@
 <script>
 	import Plot from '$lib/plot.svelte';
+	import Websocket from '../infrastructure/websocket.svelte';
 </script>
 
 <main>
@@ -7,6 +8,7 @@
 	<p>Dashboard for smart plotting</p>
 
 	<Plot />
+	<Websocket />
 </main>
 
 <style lang="scss">

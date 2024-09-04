@@ -5,6 +5,7 @@
       "type": "java",
       "name": "ProxyApplication",
       "request": "launch",
+      "console": "internalConsole",
       "mainClass": "com.liveplotting.proxy.ProxyApplication",
       "projectName": "proxy"
     },
